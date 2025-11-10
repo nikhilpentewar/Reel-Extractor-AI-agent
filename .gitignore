@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# --- Environments ---
+.env
+.env.*
+env/
+venv/
+.venv/
+
+# --- Editor / OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+nohup.out
+
+# --- Secrets / Credentials ---
+secrets/
+*.key
+*.pem
+*.json
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Docker ---
+*.pid
+docker-compose.override.yml
+
+# --- Cache ---
+.cache/
+pip-cache/
